@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #21473a;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*---- NAVBAR SECTION START---- */
+.NavBarHeader{
+    color:#C8E4B2;
+    text-shadow: 3px 3px #3e3838; /*Gölgelendirme*/
+}
+
+.NavBarSects{
+    display: flex inline;
+    flex-direction: row;
+    margin-right: 1em;
+    text-decoration: none; /* linklerden underline silmece */
+    padding:8px;
+    border: 3px solid black;
+    border-radius: 8px;
+    background-color: #D2E3C8;
+    font-weight: bold;
+    color: #436850;
+
+}   
+
+.NavBarSects a:last-child {
+    margin-right: 0;
+}
+/*---- NAVBAR SECTION END---- */
+
+/* CONTENT SECTION START*/
+.ContentHeader{
+    color:#C8E4B2;
+    text-shadow: 3px 3px #3e3838; /*Gölgelendirme*/
+}
+.Content-P{
+    color:rgb(195, 195, 195);
+    font-weight: bold;
+    list-style-position: inside;
+}
+/* CONTENT SECTION END*/
+
+/*BALIK DUNYASI SECTION START*/
+.FishieImg{
+    display: block;
+    margin-left: auto; /* ikisi birlikte kullanılınca ortalama yapıyor*/
+    margin-right: auto;
+    border: #21473a solid 5px;
+    border-radius: 10px;
+    width:300px;
+    height: 200px;
+}
